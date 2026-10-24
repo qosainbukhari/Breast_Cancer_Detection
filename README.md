@@ -10,8 +10,10 @@ This project builds a machine learning model to detect breast cancer using the *
 ```
 📦 Breast_Cancer_Detection/
 ├── app.py                   # Streamlit web app
-├── data/                    # Dataset folder (CSV or raw files)
-├── models/                  # Trained models (.pkl)
+├── svm_model.pkl            # Trained SVM model
+├── Notebook/
+│   ├── Svc.ipynb            # EDA, preprocessing, GridSearchCV training
+│   └── data.csv             # Breast cancer dataset
 ├── requirements.txt         # Python packages
 ├── Dockerfile               # Docker container instructions
 └── README.md                # Project documentation
@@ -35,7 +37,7 @@ This project builds a machine learning model to detect breast cancer using the *
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/qosain-bukhari/Breast_Cancer_Detection.git
+git clone https://github.com/QosainBukhari/Breast_Cancer_Detection.git
 cd Breast_Cancer_Detection
 ```
 
@@ -134,7 +136,7 @@ joblib
 ## 👨‍💻 Author
 
 **Name:** Qoshuu  
-**GitHub:** [@qosain-bukhari](https://github.com/qosain-bukhari)  
+**GitHub:** [@QosainBukhari](https://github.com/QosainBukhari)  
 **Email:** bukhariqosain824@gmail.com
 
 ---
